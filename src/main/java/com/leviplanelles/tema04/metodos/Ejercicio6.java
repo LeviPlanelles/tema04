@@ -13,9 +13,7 @@ public class Ejercicio6 {
             }
             System.out.println();
         }
-
     }
-
     public static void main(String[] args) {
         Scanner leer = new Scanner(System.in);
         int lineas, cantidad;
