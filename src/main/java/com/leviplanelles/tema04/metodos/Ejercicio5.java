@@ -24,5 +24,6 @@ public class Ejercicio5 {
         char caracter = leer.next().charAt(0);
         int num = IO.solicitarInt("Dime un número(0-10000): ",0,10000);
         imprimirNum(caracter,num);
+        leer.close();
     }
 }

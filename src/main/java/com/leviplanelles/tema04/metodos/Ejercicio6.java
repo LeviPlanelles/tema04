@@ -24,5 +24,6 @@ public class Ejercicio6 {
         cantidad = IO.solicitarInt("Dime un número(0-10000): ",0,10000);
         lineas = IO.solicitarInt("Dime un número(0-10000): ",0,10000);
         imprimirNum('b',cantidad,lineas);
+        leer.close();
     }
 }

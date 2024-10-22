@@ -30,7 +30,7 @@ public class Ejercicio2 {
 
         System.out.println("Indica un número: ");
         r = Float.parseFloat(scanner.nextLine());
-
+        scanner.close();
         area = calcularArea(r);
         longitud = calcularLongitud(r);
 
