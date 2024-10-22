@@ -23,7 +23,7 @@ public class Ejercicio6 {
         char caracter = leer.next().charAt(0);
         cantidad = IO.solicitarInt("Dime un número(0-10000): ",0,10000);
         lineas = IO.solicitarInt("Dime un número(0-10000): ",0,10000);
-        imprimirNum('b',cantidad,lineas);
+        imprimirNum(caracter,cantidad,lineas);
         leer.close();
     }
 }
