@@ -10,20 +10,21 @@ public class Ejercicio5 {
      * @param ch Un caracter
      * @param num El número de veces que se imprimirá el caracter
      */
-    public static void imprimirNum(char ch,int num) {
+    public static String imprimirNum(char ch,int num) {
         String cadena = "";
         for (int i = 1; i <= num; i++) {
             cadena += ch;
         }
-        System.out.println(cadena);
+        return cadena;
     }
 
     public static void main(String[] args) {
         Scanner leer = new Scanner(System.in);
         System.out.println("Dime un caracter: ");
-        char caracter = leer.next().charAt(0);
+        char caracter = leer.nextLine().charAt(0);
         int num = IO.solicitarInt("Dime un número(0-10000): ",0,10000);
-        imprimirNum(caracter,num);
+        String texto = imprimirNum(caracter,num);
+        System.out.println(texto);
         leer.close();
     }
 }

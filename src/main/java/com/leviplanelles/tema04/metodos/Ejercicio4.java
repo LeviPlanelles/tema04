@@ -14,8 +14,7 @@ public class Ejercicio4 {
     public static int numMax(int num1, int num2, int num3, int num4) {
         int numMax1 = num1 >= num2 ? num1 : num2;
         int numMax2 = num3 >= num4 ? num3 : num4;
-        int Max = numMax1 >= numMax2 ? numMax1 : numMax2;
-        return Max;
+        return numMax1 >= numMax2 ? numMax1 : numMax2;
 
     }
     public static void main(String[] args) {
