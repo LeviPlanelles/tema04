@@ -23,9 +23,17 @@ public class IO {
             check = res.length() >= lMin && res.length() <= lMax;
 
         }while (!check);
+        scanner.close();
         return res;
     }
 
+    /**
+     * Solicita un texto y valida su longitud este comprendida entre nMin y nMax, te devuelve el numero puesto
+     * @param msj El mensaje con el que se solicita el número
+     * @param nMin Número mínimo permitido
+     * @param nMax Número máximo permitido
+     * @return devuelve el número introducido
+     */
     public static int solicitarInt(String msj,int nMin, int nMax) {
         Scanner scanner = new Scanner(System.in);
         int num;
@@ -38,6 +46,7 @@ public class IO {
             num = Integer.parseInt(scanner.nextLine());
             check = num >= nMin && num <= nMax;
         }while (!check);
+        scanner.close();
         return num;
     }
 }
