@@ -6,6 +6,12 @@ import java.util.Scanner;
 
 public class Ejercicio6 {
 
+    /**
+     * Este método te pide un caracter y dos numeros enteros con los que cofiguraras que quieres imprimir, cuantas veces y cuantas lineas
+     * @param ch Un caracter
+     * @param tamanio El número de veces que se imprimirá el caracter
+     * @param lineas El numero de lineas que imprimirá el número de veces que se imprimirá el caracter
+     */
     public static void imprimirNum(char ch,int tamanio, int lineas) {
         for (int j = 1; j <= lineas; j++) {
             for (int i = 1; i <= tamanio; i++) {
