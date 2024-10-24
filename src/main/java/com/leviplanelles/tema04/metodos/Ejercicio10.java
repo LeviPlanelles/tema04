@@ -5,6 +5,10 @@ import com.leviplanelles.tema04.lib.IO;
 import java.util.Scanner;
 
 public class Ejercicio10 {
+    /**
+     * Es un método que te imprime la tabla de multiplicar por pantalla según el número que metas
+     * @param num un número
+     */
     public static void tablaMultiplicar(int num) {
         int res;
         for (int i = 1; i <= 10 ; i++) {

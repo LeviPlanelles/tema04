@@ -3,6 +3,14 @@ package com.leviplanelles.tema04.metodos;
 import com.leviplanelles.tema04.lib.IO;
 
 public class Ejercicio8 {
+    /**
+     * Pones un 4 números enteros y te devuele el mayor entre ellos
+     * @param n1 número 1
+     * @param n2 número 2
+     * @param n3 número 3
+     * @param n4 número 4
+     * @return el numero mayor
+     */
     public static boolean capicua(int n1, int n2, int n3, int n4) {
         return n1 == n4 && n2 == n3;
     }
