@@ -3,6 +3,12 @@ package com.leviplanelles.tema04.metodos;
 import com.leviplanelles.tema04.lib.IO;
 
 public class Ejercicio13 {
+    /**
+     * Te da un saludito
+     * @param nombre un nombre
+     * @param idioma el idioma en un char
+     * @return devuelve el saludo según el idioma
+     */
     public static String saludo(String nombre, char idioma) {
         return switch (idioma) {
             case 'c' -> "Buenos días " + nombre + "!!!";
