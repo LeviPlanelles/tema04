@@ -3,6 +3,7 @@ package com.leviplanelles.tema04.lib;
 import java.util.Scanner;
 
 public class IO {
+    public static Scanner scanner = new Scanner(System.in);
     /**
      * Solicita un texto y valida su longitud este comprendida entre lMin y lMax
      * @param msj Mensaje que se mostrará la usuario
@@ -11,7 +12,6 @@ public class IO {
      * @return Texto leido validado
      */
     public static String solicitarString(String msj, int lMin, int lMax) {
-        Scanner scanner = new Scanner(System.in);
         String res;
         boolean check = true;
         do {
@@ -23,7 +23,6 @@ public class IO {
             check = res.length() >= lMin && res.length() <= lMax;
 
         }while (!check);
-        scanner.close();
         return res;
     }
 
@@ -35,7 +34,6 @@ public class IO {
      * @return devuelve el número introducido
      */
     public static int solicitarInt(String msj,int nMin, int nMax) {
-        Scanner scanner = new Scanner(System.in);
         int num;
         boolean check = true;
         do {
@@ -46,7 +44,11 @@ public class IO {
             num = Integer.parseInt(scanner.nextLine());
             check = num >= nMin && num <= nMax;
         }while (!check);
-        scanner.close();
+
         return num;
+    }
+
+    public static void close() {
+        scanner.close();
     }
 }
