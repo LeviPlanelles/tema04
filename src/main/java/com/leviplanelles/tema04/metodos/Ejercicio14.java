@@ -24,5 +24,6 @@ public class Ejercicio14 {
         m = IO.solicitarInt("Ingresa otro número: ",0,100);
         long combinatorio = numCombinatorio(n,m);
         System.out.println("El número combinatorio entre "+ n +" y " + m + " es: " + combinatorio);
+        IO.close();
     }
 }
