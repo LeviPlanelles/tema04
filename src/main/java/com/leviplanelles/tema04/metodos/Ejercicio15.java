@@ -20,7 +20,7 @@ public class Ejercicio15 {
         int puntuacionOrdenador = 0;
         int ronda = 0;
         bienvenida();
-
+        
         do {
             ronda++;
             puntuacion = 0;

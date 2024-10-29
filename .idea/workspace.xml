@@ -5,8 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e7b83296-9fba-4bd7-bd2b-442fc028d2f5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/leviplanelles/tema04/metodos/Ejercicio15.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/leviplanelles/tema04/fechas/Ejercicio1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/leviplanelles/tema04/fechas/Ejercicio2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/leviplanelles/tema04/fechas/Ejercicio3.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/leviplanelles/tema04/metodos/Ejercicio15.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/leviplanelles/tema04/metodos/Ejercicio15.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,6 +42,9 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Gradle.Tema04 [:com.leviplanelles.tema04.fechas.Ejercicio1.main()].executor": "Run",
+    "Gradle.Tema04 [:com.leviplanelles.tema04.fechas.Ejercicio2.main()].executor": "Run",
+    "Gradle.Tema04 [:com.leviplanelles.tema04.fechas.Ejercicio3.main()].executor": "Run",
     "Gradle.Tema04 [:com.leviplanelles.tema04.metodos.Ejercicio10.main()].executor": "Run",
     "Gradle.Tema04 [:com.leviplanelles.tema04.metodos.Ejercicio11.main()].executor": "Run",
     "Gradle.Tema04 [:com.leviplanelles.tema04.metodos.Ejercicio12.main()].executor": "Run",
